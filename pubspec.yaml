@@ -1,0 +1,57 @@
+name: chatapp
+description: chat app example which is part of advanced flutter course
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.10.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  font_awesome_flutter: ^8.12.0
+  sqflite: ^1.3.2+4
+  provider: ^4.0.0
+  firebase_auth: ^0.16.1
+  firebase_storage: ^3.1.6
+  firebase_messaging: ^6.0.16
+  cloud_firestore: ^0.13.7
+  google_sign_in: ^4.2.0
+  intl: ^0.16.1
+  shared_preferences: ^0.5.3+1
+  toast: ^0.1.5
+  camera: ^0.7.0+4
+  flutter_barcode_scanner: ^1.0.2
+  qr_flutter: ^3.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  fonts:
+     - family: prompt
+       fonts:
+         - asset: assets/fonts/Prompt-Black.ttf
+         - asset: assets/fonts/Prompt-BlackItalic.ttf
+         - asset: assets/fonts/Prompt-Bold.ttf
+         - asset: assets/fonts/Prompt-BoldItalic.ttf
+         - asset: assets/fonts/Prompt-ExtraBold.ttf
+         - asset: assets/fonts/Prompt-ExtraBoldItalic.ttf
+         - asset: assets/fonts/Prompt-ExtraLight.ttf
+         - asset: assets/fonts/Prompt-ExtraLightItalic.ttf
+         - asset: assets/fonts/Prompt-Light.ttf
+         - asset: assets/fonts/Prompt-LightItalic.ttf
+         - asset: assets/fonts/Prompt-Medium.ttf
+         - asset: assets/fonts/Prompt-MediumItalic.ttf
+         - asset: assets/fonts/Prompt-Regular.ttf
+         - asset: assets/fonts/Prompt-SemiBold.ttf
+         - asset: assets/fonts/Prompt-SemiBoldItalic.ttf
+         - asset: assets/fonts/Prompt-Thin.ttf
+         - asset: assets/fonts/Prompt-ThinItalic.ttf
